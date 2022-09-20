@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toto</title>
+</head>
+
+<body>
+    <h1>Veuillez remplir les deux groupes de champs</h1>
+    <br>
+    <form action="toto.php" method="POST">
+        <p>A propos des CSS</p>
+        <br>
+        <h5>Savez-vous ce que veut dire CSS ?</h5>
+
+        <label for="Savoir">
+            <input type="radio" name="oui" id="oui" value="oui" class="inline">oui
+            <input type="radio" name="non" id="non" value="non" class="inline">non
+        </label>
+        <br>
+        <br>
+        <label for="frequence">
+            Si oui, les utilisez-vous plûtot:
+            <select name="frequence" id="frequence">
+                <option value="r">--</option>
+                <option value="toujours">toujours</option>
+                <option value="parfois">parfois</option>
+                <option value="jamais">jamais</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <p>Vos coordonnées</p>
+        <br>
+        <label for="mail">
+            Votre email <input type="email" name="email">
+        </label>
+        <br><br>
+        <label for="remarque">
+            Vos commentaires:<br>
+            <textarea name="remarque" rows=4 cols="20" value="remarque"></textarea>
+        </label>
+        <br><br>
+        <input class="inp" type="reset" value="Reset">
+        <input class="inp" type="submit" value="Submit">
+
+
+    </form>
+</body>
+
+</html>

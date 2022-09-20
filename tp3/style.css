@@ -1,0 +1,32 @@
+table{
+    border-collapse: separate;
+    border: 1px solid black;
+
+}
+td 
+{
+    border: 1px solid black; 
+}
+.titre{
+    background-color: lightgray;
+}
+
+.mois{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.n{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: red;
+    background-color: 	#FA8072;
+}
+
+body{
+    background-color: gray;
+}
+

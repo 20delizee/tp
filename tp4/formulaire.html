@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+
+<body>
+    <form method="POST">
+        <label for="civilite" >Votre civilite:
+            <select name="civilite" id="civilite" required>
+                <option value="r">--</option>
+                <option value="Mme">Mme</option>
+                <option value="Mlle">Mlle</option>
+                <option value="M">M</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label for="nom">
+            Votre nom: <input type="text" required>
+        </label>
+        <br>
+        <br>
+        <label for="prenom">
+            Votre prenom: <input type="text" required>
+        </label>
+        <br>
+        <br>
+        <label for="date">
+            date de naissance: <input type="date" required>
+        </label>
+        <br>
+        <br>
+        <label for="Adresse">
+            <strong>Votre adresse: </strong><br>
+            Votre numero: <input type="number" required>
+            <br>
+            Votre rue: <input type="text" required>
+            <br>
+            Votre code postal: <input type="text" required>
+            <br>
+            Votre ville: <input type="text" required>
+        </label>
+        <br>
+        <br>
+        <label for="telephone">
+            Votre numéro de telephone <input type="tel" required>
+        </label>
+        <br>
+        <br>
+        <label for="mail">
+            Votre adresse electronique: <input type="email" required>
+        </label>
+        <br>
+        <br>
+        <label for="web">
+            Si vous avez un site internet veuillez le renseigner ici: <input type="text" required>
+        </label>
+    
+        
+    </form>
+</body>
+
+</html>

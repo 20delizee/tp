@@ -1,0 +1,30 @@
+header{
+    background-color: #2F3440;
+    height: 50px;
+    width: 600px;
+}
+
+section{
+    background-color:  #F5E5C0;
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+footer{
+    background-color:  #3F5666;
+    height: 50px;
+    width: 300px;
+    clear: left;
+}
+.haut {
+    background-color: #F8CA4D;
+    width: 100px;
+    height: 200px;
+
+}
+.bas{
+    background-color: #EA6045;
+    width: 100px;
+    height: 200px;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: "Trebuchet MS";
+    font-size: 90%;
+    display: block;
+}
+form{
+    background-color:  #FAFAFA;
+    width: 280px;
+    border: solid #DF3F3F 1px;
+
+}
+
+p{
+    color:  #DF3F3F;
+    font-weight: bold;
+    
+}
+
+.inline{
+    display: inline;
+    width: 10px;
+}
+input, select, textarea, option{
+    background-color: #FFF3F3;
+    
+}
+
+input, select, textarea{
+    border: solid #F5C5C5 1px ;
+width: 200px;
+    
+}
+
+.inp{
+    width: 100px;
+}

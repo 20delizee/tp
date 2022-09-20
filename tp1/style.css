@@ -1,0 +1,17 @@
+body {
+    background-image: url('paper.gif');
+    background-size: 12pt;
+    background-repeat: repeat;
+}
+
+ol {
+    color: blue;
+}
+
+.important{
+    color: red;
+}
+
+.essaie{
+    color: green;
+}

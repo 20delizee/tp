@@ -1,0 +1,71 @@
+ol{
+    display: inline;
+   
+}
+body{
+    background-color: #D8DAD5;
+}
+nav{
+    background-color: #6F9062;
+    text-align: center; 
+}
+header{
+    background-color: #BCC994;
+    
+    height: 100px;
+}
+.thes{
+    background-color: white;
+    margin-left: 40px;
+
+}
+.thess{
+    background-color: gray;
+    display: inline-block;
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+}
+figure{
+    background-color: #A1B84E;
+    width: 400px;
+    height: 200px;
+}
+
+.art{
+    background-color: #E3C786;
+    margin-left: 40px;
+
+    width: 200px;
+    height: 100px;
+}
+aside{
+    background-color: #CF9D5B;
+    margin-left: 40px;
+    width: 300px;
+}
+.di{
+    
+    display: inline-flex;
+    width: 100%;
+
+}
+.sec{
+
+    background-color: #BBBCB7;
+    margin-left: 40px;
+    width: 300px;
+}
+.cc{
+    background-color: #83847F;
+    margin-left: 40px;
+
+    width: 200px;
+    height: 100px;
+}
+
+footer{
+    background-color: #BBBCB7;
+    margin-left: 40px;
+
+}
