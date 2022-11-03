@@ -19,12 +19,20 @@ footer{
 }
 .haut {
     background-color: #F8CA4D;
+    display: inline-block;
+
     width: 100px;
     height: 200px;
 
 }
 .bas{
     background-color: #EA6045;
+    display: inline-block;
+
     width: 100px;
     height: 200px;
+}
+.block{
+    display: inline-block;
+
 }

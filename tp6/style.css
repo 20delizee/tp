@@ -1,0 +1,54 @@
+.bla{
+    height: 50px;
+    background-color: blue;
+}
+.bli{
+    height: 50px;
+    background-color: rgb(30, 216, 30);
+}
+
+
+
+.blas{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+}
+.blis{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(30, 216, 30);
+    float: left;
+    margin-left: 20px;
+}
+.blus{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    margin-left: 20px
+}
+
+.flemme{
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    padding-top: 40px;;
+}
+
+.bliss{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.pm{
+    background-color: yellow;
+    width: 40%;
+}
+.img{
+    float: right;
+}
+

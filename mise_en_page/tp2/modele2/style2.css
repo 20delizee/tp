@@ -1,0 +1,81 @@
+body {
+    background-color: blue;
+    margin-top: 4vh;
+    margin-left: 4%;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.container .element1 {
+    width: 35%;
+    height: 25vh;
+    background-color: white;
+}
+.container .element2 {
+    margin-top: 2vh;
+    width: 35%;
+    height: 70vh;
+    background-color: #fff;
+}
+.container .element3 {
+    width: 35%;
+    height: 40vh;
+    background-color: #fff;
+}
+.container .element4 {
+    width: 33%;
+    height: 50vh;
+    background-color: #fff;
+}
+.container .element5 {
+    width: 33%;
+    height: 60vh;
+    background-color: #fff;
+}
+.container .element6 {
+    width: 33%;
+    height: 35vh;
+    background-color: #fff;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.grid1{
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    background-color: white;
+}
+.grid2{
+    grid-column: 2/3; 
+    grid-row: 1/5;
+    background-color: white;
+}
+.grid3{
+    grid-column: 3/4; 
+    grid-row: 1/7;
+    background-color: white;
+}
+.grid4{
+    grid-column: 1/2; 
+    grid-row: 3 / 9;
+    background-color: white;
+}
+.grid5{
+    grid-column: 2/3; 
+    grid-row: 5 / 9;
+    background-color: white;
+}
+.grid6{
+    grid-column: 3/4; 
+    grid-row: 7 / 9;
+    background-color: white;
+}

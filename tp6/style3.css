@@ -1,0 +1,56 @@
+body{
+    background-color: #666666;
+    margin-left: 20px;
+
+}
+p{
+    color: white;
+}
+div{
+    display: inline-flex;
+}
+
+
+h1{
+    visibility: hidden;
+}
+div figure:hover h1{
+    visibility: visible;
+
+}
+
+
+.coucou{
+    background-color: yellow;
+    margin-left: 20px;
+    height: 700px;
+    
+
+}
+
+.app{
+    height: 200px;
+    background: no-repeat url("appareil.jpg");
+}
+img{
+    
+    -moz-box-shadow: 0px 1px 5px 0px #656565;
+    -webkit-box-shadow: 0px 1px 5px 0px #656565;
+    -o-box-shadow: 0px 1px 5px 0px #656565;
+    box-shadow: 0px 1px 5px 0px #656565;
+ 
+   
+ 
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+ 
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=85);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+    filter:alpha(opacity=85);
+}
