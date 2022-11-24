@@ -1,4 +1,4 @@
-img {
+.coucou {
     float: left;
     width: 150px;
     height: 150px;
@@ -6,12 +6,27 @@ img {
     shape-outside: circle();
 }
 
-.triangle-topleft {
-    width: 0;
-    height: 0;
-    border-top: 100px solid red;
-    border-right: 100px solid transparent;
+.triangle-code {
     float: left;
-    shape-margin: 15px;
+    height: 0;
+    width: 0;
+    shape-outside: polygon(0 0, 1000px 1000px, 700px 600px);
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid red;
+}
 
+.eiffel{
+    width: 550px;
+    float: right;
+}
+
+
+
+.triangle-codes {
+    float: left;
+    height: 0;
+    width: 0;
+    shape-outside: polygon(0 280px, 250px 0px, 0 0);
+    border-right: 250px solid transparent;
+    border-top: 250px solid red;
 }

@@ -1,0 +1,26 @@
+:root {
+  --bg-color: green;
+  --content-bg-color: blue;
+  --pading: auto;
+  --content-width:90%;
+  --content-height:20%;
+  --font-size: 1em;
+  --font-size-h1: 1em;
+  --font-size-h1-hover: 2em;
+}
+
+.content {
+  width: var(--content-width);
+  height: var(--content-height);
+  background-color: var(--content-bg-color);
+  font-size: var(--font-size);
+  padding: var(--pading);
+}
+
+.content h1 {
+  font-size: var(--font-size-h1);
+  font-weight: bold;
+}
+.content h1:hover {
+  font-size: var(--font-size-h1-hover);
+}/*# sourceMappingURL=0.css.map */
